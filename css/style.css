@@ -1,0 +1,138 @@
+html, body{
+	padding: 0;
+	margin: 0;
+	background: url(../img/bg.jpg);
+	background-size: cover;
+}
+
+.header{
+	width: 100%;
+	background: #347892;
+	color: #fff;
+	margin: 0;
+	text-align: center;
+}
+
+h3{
+	padding: 15px 15px 15px 15px;
+	margin: 0;
+}
+
+.mails, .message{
+	width: 800px;
+	margin: auto;
+	height: auto;
+	border-color: 
+	margin-top: 5px;
+	background: rgba(255, 255, 255, 0.7);
+	padding: 5px;
+}
+
+.mails-titles{
+	width: 800px;
+	margin: auto;
+	height: auto;
+	margin-top: 23px;
+	clear: both;
+}
+
+.title{
+	width: 100%;
+	float: left;;
+	padding: 10px 5px; 
+	position: relative;
+	background: pink;
+	font-weight: bolder;
+}
+
+.newmsgs{
+	width: 100%;
+	max-width: 800px;
+	position: relative;
+	font-weight: bolder;
+	padding: 10px 5px; 
+	text-align: left;
+	
+}
+
+.newmsgs button{
+	float: left;
+	background: pink;
+	padding: 3px;
+	border: 1px solid #ddd;
+	font-weight: bold;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+
+#subject{
+	color: #000;
+	background: rgba(255, 255, 255, 0.8);
+	border-bottom: 2px solid red;
+	padding: 3px;
+}
+
+#sender{
+	color: red;
+}
+.top-tag{
+	width: 50%;
+	float: left;
+	position: relative;
+	background: #505050;
+
+}
+
+.tag{
+	width: 33.33%;
+	float: left;
+	position: relative;
+	background: #424242
+}
+.gotten{
+
+	width: 25%;
+	float: left;
+	position: relative;
+	background: #fofofo;
+
+}
+.line{
+	border-bottom: 2px solid #222;
+	padding: 10px 0;
+	min-height:20px;
+	cursor: pointer;
+}
+.line:hover{
+	background-color: #cdcdfd;
+}
+
+#demo{
+	background: rgb(255, 153, 0);
+	padding: 4px;
+	border-radius: 3px;
+}
+
+
+.video{
+	width: 70%;
+	clear: both;
+	background: #0099ff;
+	color: #ffff99;
+	margin: auto;
+	text-align: center;
+	font-weight: bolder;
+	padding: 5px 0;
+	border-radius: 5px;
+}
+
+.footer{
+	width: 100%;
+	clear: both;
+	background: #347892;
+	color: #fff;/**short form for #FFFFFF*****/
+	margin: auto;
+	text-align: center;
+	padding: 5px 0;
+}
