@@ -25,6 +25,16 @@
 	};
 
     </script>
+    //This extra code adds a LIVE timer!
+    <script type="text/javascript">
+    	var myVar = setInterval(function(){ myTimer() }, 1000);
+
+		function myTimer() {
+    	var now = new Date();
+    	var t = now.toLocaleTimeString();
+    	document.getElementById("demo").innerHTML = t;
+	};
+    </script>
 	</head>
 	
 	<body>
