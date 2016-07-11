@@ -1,18 +1,63 @@
-<html>
+<!DOCTYPE lang="en">
+ <html>
 	<head>
+		<meta charset = "utf-8">
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
 		<script src="js/mail-generator.js"></script>
 		<link href="css/style.css" rel="stylesheet" media="screen">
+		<title>Gee-Mail</title>
+   
     <script>
-      window.onload = function(){
-        // ALL OF YOUR JAVASCRIPT CODE SHOULD GO HERE. 
-        // We have to use window.onload so your JavaScript doesn't execute until the page has loaded and all HTML has been downloaded to your browser
-        
-      };
+    window.onload = function(){
+    	document.getElementById("demo").innerHTML = subject.length;
+    //get individual array and post on directed div of particular requirement
+       
+    for (i = 0; i < subject.length; i++) {
+
+    	window.geemails = [date_[i]] +'<br />';
+       	window.geemails = [subject[i]] +'<br />';
+        window.geemails = [sender[i]] +'<br />';
+        window.geemails = [body[i]]+'<br />';
+
+       document.getElementById("subject").innerHTML += "Subject: " + subject[i] +'<br>' + "Sender: " +sender[i] + '<br><br>' + "Body: "  +body[i] +'<br>' + "Date:"+ date_[i] +'<br>'+'<br>' 
+	   }
+
+	};
+
     </script>
 	</head>
+	
 	<body>
 		<div class="container" id="main">
-			Build Me!
+			
+			<div class="header">
+				<h3>Mail Generator</h3>
+			</div>
+
+			
+			<div class="newmsgs"><button>Get New Message</button> </div>
+			
+			<div class="mails-titles">
+				<div class="title">Number of Mails <i id="demo"></i></div>
+			</div>
+			<div id="all" class="mails">
+				<div id="subject"><p></p></div>
+				<div id="sender"><p></p></div>
+				<div id="body"><p></p></div>
+				<div id="date_"><p></p></div>
+			</div>
 		</div>
+		
+		<div class= "video">
+			<h4><strong> <align = center>learn more! About the email system</strong></h4>
+			<video src= "img/github_devleague.mp4" width="320" height="240" controls = "controls" poster="img/email-logo1.jpg" align = center>
+			</video>		
+		</div>
+		-------->
+
+		<div class="footer">
+			Copyright All Rights Reserved 2016
+		</div>
+
 	</body>
 </html>
