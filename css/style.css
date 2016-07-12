@@ -67,6 +67,18 @@ h3{
 	font-style: italic; /***added**/
 }
 
+.newmail button{
+	float: right;
+	background: #ebac00;     /****Added*****/
+	padding: 3px;
+	border: 1px solid #ddd;
+	font-weight: bold;
+	border-radius: 3px;
+	cursor: pointer;
+	font-family: Arial;
+	font-style: italic; /***added**/
+}
+
 
 #subject{
 	color: #000;
