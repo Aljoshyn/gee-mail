@@ -41,7 +41,7 @@ h3{
 	float: left;
 	padding: 10px 5px; 
 	position: relative;
-	background: pink;
+	background: #00b5b8;    /*****Added****/
 	font-weight: bolder;
 }
 
@@ -57,7 +57,7 @@ h3{
 
 .newmsgs button{
 	float: left;
-	background: pink;
+	background: #ebac00;     /****Added*****/
 	padding: 3px;
 	border: 1px solid #ddd;
 	font-weight: bold;
@@ -121,7 +121,7 @@ h3{
 	background: #66ff33;           /****rgb(255, 153, 0);****/
 	padding: 4px;
 	border-radius: 3px;
-	float: right; /***adeed!********/
+	float: right; /***added!********/
 }
 /*******************/
 
