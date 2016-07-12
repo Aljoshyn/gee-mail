@@ -34,18 +34,15 @@
     	document.getElementById("New-demo").innerHTML = t;
 	};
     </script>
-	//------>
-	//!--write similar function to be used by New message Button(newmsgs)
-	//!------>
 	
 	
-		<button onclick="newmailFunction()">New Mail</button> //---Changes here--->
+		<button onclick="newmailFunction()">New Mail</button> 
 
 		<script type="text/javascript">
 		var timeVar;
 
 		function newmsgsFunction() {
-			timeVar = setInterval(alertFunc, 1000);
+			timeVar = setInterval(alertFunc, 10000);
 		}
 
 		function alertFunc() {
@@ -64,11 +61,11 @@
 
 			
 			<div class="newmsgs"><button>New Message</button> </div>
-			<div class="newmail"><button>New Mail!</button> </div> //!---Changes here!--->
+			<div class="newmail"><button>New Mail!</button> </div> 
 			
 			<div class="mails-titles">
 				<div class="title">Number of Mails <i id="demo"></i></div>
-				<div class="title">Current time <i id="New-demo"></i></div> //!---Added---->
+				<div class="title">Current time <i id="New-demo"></i></div> 
 			</div>
 			<div id="all" class="mails">
 				<div id="subject"><p></p></div>
@@ -83,7 +80,7 @@
 			<video src= "img/github_devleague.mp4" width="320" height="240" controls = "controls" poster="img/email-logo1.jpg" align = center>
 			</video>		
 		</div>
-		//-------->
+	
 
 		<div class="footer">
 			Copyright All Rights Reserved 2016
